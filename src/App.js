@@ -1,7 +1,14 @@
 import "./App.css";
+import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
+import Routers from "./routes/Routers";
 
 function App() {
-  return <h1>hello world</h1>;
+  return <>
+  <Header/>
+<Routers/>
+<Footer/>  
+  </>;
 }
 
 export default App;
